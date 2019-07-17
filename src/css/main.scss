@@ -1,0 +1,47 @@
+body {
+	background-image: linear-gradient(to right, #0e6655, #2ecc71);
+	font-family: 'Nunito', sans-serif;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+.container {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-content: center;
+}
+.wrapper {
+	width: 900px;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	box-shadow: 9px 10px 25px -6px rgba(0, 0, 0, 0.75);
+	border-radius: 10px 10px 10px 10px;
+}
+.favList {
+	padding-left: 5%;
+	button {
+		float: right;
+		padding: 2px 12px 2px 12px;
+		border-radius: 10px;
+	}
+}
+.removeBtn {
+	&:hover {
+		visibility: visible;
+		color: white;
+	}
+}
+.tv-shows {
+	background: white;
+	border-radius: 10px 0 0 10px;
+	padding-right: 40px;
+	h3 {
+		padding-left: 40px;
+	}
+}
+
+.remove-fav {
+	float: right;
+	border-radius: 10px;
+}
